@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jasper Param Checker</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="main.js"></script>
+<!-- <link rel="stylesheet" href="mini-default.min.css"> -->
+<style>
+    table td{padding:5px;}
+</style>
+</head>
+<body>
+    <div style="width:800px;text-align:center;">
+        <h3>Jasper Param Checker</h3>
+        <button class="bt_action">Check</button>
+        <div id="dv_message"></div>
+        <table style="width:100%;" cellspacing="0" cellpadding="0">
+            <thead>
+                <tr>
+                    <th style="width:50px;text-align:center;">Name</th>
+                    <th style="text-align:center;">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align:right;">path</td>
+                    <td style="text-align:left;"><input type="text" id="reportUnit" style="width:98%;"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;">site_id</td>
+                    <td style="text-align:left;"><input type="text" id="pm_site_id" style="width:98%;"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;">patient_id</td>
+                    <td style="text-align:left;"><input type="text" id="pm_patient_id" style="width:98%;"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;">patientvisit_id</td>
+                    <td style="text-align:left;"><input type="text" id="pm_patientvisit_id" style="width:98%;"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;border-top:1px solid #DDD;margin-top:10px;padding-top:10px;">other</td>
+                    <td style="text-align:left;border-top:1px solid #DDD;margin-top:10px;padding-top:10px;"><div id="other_params"></div></td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- <div>
+            <button class="bt_action primary small" data-site="BRH">BRH New</button>
+            <button class="bt_action primary small" data-site="BRH-Edit">BRH Edit</button>
+        </div>
+        <div>
+            <button class="bt_action secondary small" data-site="SRH">SRH New</button>
+            <button class="bt_action secondary small" data-site="SRH-Edit">SRH Edit</button>
+        </div>
+        <div>
+            <button class="bt_action tertiary small" data-site="BRD">BRD New</button>
+            <button class="bt_action tertiary small" data-site="BRD-Edit">BRD Edit</button>
+        </div> -->
+    </div>
+</body>
+</html>

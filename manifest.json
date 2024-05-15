@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Jasper Param Checker",
+    "description": "",
+    "version": "1.0",
+
+    "browser_action": {
+      "default_icon": "icon.png",
+       "default_title": "Jasper Param Checker",
+       "default_popup": "main.html"
+    },
+    "content_scripts":[{
+      "matches": ["https://ebmc.bdms.co.th/","https://ebmc.bdms.co.th/*","http://172.18.67.154:8080/*"],
+      "js": ["content-script.js"]
+    }],
+    "permissions": [
+      "storage",
+      "tabs",
+      "http://*/*",
+      "https://*/*"    
+    ]
+}
